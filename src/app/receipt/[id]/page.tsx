@@ -89,12 +89,12 @@ export default async function ReceiptPage({
           >
             New payment
           </Link>
-          <Link
+          {/* <Link
             href="/transactions"
             className="rounded-2xl bg-white py-3 text-center text-sm font-bold text-slate-700 shadow hover:bg-slate-50"
           >
             All transactions
-          </Link>
+          </Link> */}
         </div>
       </div>
       <SiteFooter />
