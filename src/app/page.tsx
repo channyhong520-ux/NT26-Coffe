@@ -380,15 +380,15 @@ export default function CheckoutPage() {
       <SiteHeader />
 
       {/* Hero strip */}
-      <section className="bg-gradient-to-r from-[#E1232E] to-[#8f141c] text-white">
+      <section className="bg-gradient-to-r from-zinc-100 to-zinc-200 text-zinc-800">
         <div className="mx-auto flex max-w-3xl flex-col items-start gap-1.5 px-4 py-8">
-          <span className="rounded-full bg-white/15 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.15em] backdrop-blur">
+          <span className="rounded-full bg-black/5 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.15em] backdrop-blur">
             Welcome to
           </span>
           <h1 className="text-2xl font-black tracking-tight sm:text-3xl">
             Coffee NT26
           </h1>
-          <p className="text-sm text-white/80">
+          <p className="text-sm text-zinc-600">
             Order your favorites and pay instantly with Bakong KHQR — no cash
             needed.
           </p>
