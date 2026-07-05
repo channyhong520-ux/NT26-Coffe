@@ -395,6 +395,11 @@ export default function CheckoutPage() {
         </div>
         <div className="mt-4 flex flex-wrap items-center gap-2">
               <img
+                src="https://play-lh.googleusercontent.com/Q27JPO0Plka8m3_-h2yw3Xu22Wedt3NJcxl1NPgMlaI6VRNcmSEPArvAcmnK1_TpmMBUlTsxjS1ycy0rRDFrmA"
+                alt="BAKONG"
+                className="h-8 w-auto rounded-sm"
+              />
+              <img
                 src="https://www.bank-cambodia.org/wp-content/uploads/2023/08/master-logo-aba.jpg"
                 alt="ABA"
                 className="h-8 w-auto rounded-sm"
