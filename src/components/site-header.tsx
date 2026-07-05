@@ -27,9 +27,9 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
       {/* Top announcement bar */}
-      <div className="bg-slate-900 py-1.5 text-center text-[11px] font-medium text-white">
+      {/* <div className="bg-slate-900 py-1.5 text-center text-[11px] font-medium text-white">
         ⚡ Instant payment with Bakong KHQR — scan with any Cambodian banking app
-      </div>
+      </div> */}
 
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         {/* Brand */}
