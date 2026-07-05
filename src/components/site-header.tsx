@@ -50,7 +50,30 @@ export default function SiteHeader() {
             </span>
           </span>
         </Link>
-
+      
+      <div className="mt-4 flex flex-wrap items-center gap-2">
+              <img
+                src="https://www.bank-cambodia.org/wp-content/uploads/2023/08/master-logo-aba.jpg"
+                alt="ABA"
+                className="h-8 w-auto rounded-sm"
+              />
+              <img
+                src="https://cccbic.org/businesses/430-logo.jpg"
+                alt="ACLEDA"
+                className="h-8 w-auto rounded-sm"
+              />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLbF439gy6zvgIqmwtZXG0ajK5oHG2UKyv1E7QQLGUw7AiycAuZy2dcEY&s=10"
+                alt="WING"
+                className="h-8 w-auto rounded-sm"
+              />
+              <img
+                src="https://play-lh.googleusercontent.com/Fk6vi1cxwiXsOvyK4PlTKK8D9bjsFjvkpfk4ZvQjwjWhxf1LnF-MCnglpoCTn0-NrbAcuUPp5EAs3K8TMjiQruw"
+                alt="SATHAPANA"
+                className="h-8 w-auto rounded-sm"
+              />
+            </div>
+            
         {/* Nav */}
         <nav className="flex items-center gap-1">
           {NAV.map((item) => {
