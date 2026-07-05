@@ -34,7 +34,7 @@ export default function SiteHeader() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         {/* Brand */}
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="h-10 w-10 overflow-hidden rounded-xl shadow-md shadow-slate-200">
+          <div className="h-10 w-10 overflow-hidden rounded-xl shadow-md shadow-red-200">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiYKqy-iKkjZUEu8RfoHDtnp3uRlPVAvdxfftt4me6t64QVVC-9fFdTw&s=10"
               alt="Coffee NT26 logo"
@@ -43,14 +43,13 @@ export default function SiteHeader() {
           </div>
           <span>
             <span className="block text-base font-black leading-tight tracking-tight text-slate-900">
-              Coffee <span className="text-slate-700">NT26</span>
+              Coffee <span className="text-[#E1232E]">NT26</span>
             </span>
             <span className="block text-[10px] font-medium uppercase tracking-[0.18em] text-slate-400">
               Café · Drinks · Internet
             </span>
           </span>
         </Link>
-      </div>
 
         {/* Nav */}
         <nav className="flex items-center gap-1">
