@@ -1,0 +1,15 @@
+# PostgreSQL connection string (Neon, Supabase, Railway, or your own server)
+DATABASE_URL=postgresql://neondb_owner:npg_mcWpK4nx7bqD@ep-divine-voice-ainbgau3.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require
+
+# --- Bakong merchant settings ---
+BAKONG_ACCOUNT_ID=sokpheng_phoeurn@bkrt
+MERCHANT_NAME=SOKPHENG NETCAFE
+MERCHANT_CITY=Phnom Penh
+
+# Bakong Open API token — enables automatic payment verification.
+# Register free at https://api-bakong.nbc.gov.kh
+BAKONG_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNDA4NGU3ODZmMjYwNGFkZCJ9LCJpYXQiOjE3ODMwMzc5MDMsImV4cCI6MTc5MDgxMzkwM30.fwh8D3BH6G3Q9DZQvfb2XyZbcO4NCOwtPniKtkag9S8
+
+# --- Telegram alerts ---
+TELEGRAM_BOT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNDA4NGU3ODZmMjYwNGFkZCJ9LCJpYXQiOjE3ODMwMzc5MDMsImV4cCI6MTc5MDgxMzkwM30.fwh8D3BH6G3Q9DZQvfb2XyZbcO4NCOwtPniKtkag9S8
+TELEGRAM_CHANNEL=@sokphengnetcafe
